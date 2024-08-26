@@ -1,0 +1,14 @@
+path: C:\Users\atanu\OneDrive\Desktop\GARBAGE_DETECT
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 3
+names: ['garbage', 'garbage_bin', 'overflow']
+
+roboflow:
+  workspace: project-shb1t
+  project: -111-ehcfr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-shb1t/-111-ehcfr/dataset/2
